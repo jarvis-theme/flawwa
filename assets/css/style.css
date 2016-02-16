@@ -121,7 +121,7 @@ nav a:hover { text-decoration: none; color: #555; }
 .result-label { margin: 40px 0; font-style: italic; font-size: 14px; }
 .title-result { font-size: 16px; }
 #search-pos { position: absolute; top: 7px; right: 5px; color: #ddd; }
-.search-column { visibility: hidden; min-width: 180px; width: 23%; /*float: right; */margin-top: 80px; position: absolute; z-index: 5000; right: 10px; }
+.search-column { visibility: hidden; min-width: 180px; width: 23%; margin-top: 80px; position: absolute; z-index: 5000; right: 0; }
 .nav { padding-bottom: 15px; padding-top: 13px; }
 .navbar .nav > li:first-child { border-left: none; }
 .navbar .nav > li { border-left: 1px solid #fff; padding-right: 20px; padding-left: 20px; }
@@ -260,8 +260,8 @@ header > .data-content{padding: 0;}header > .data-content > .row{padding: 0 15px
 .confirm-order{width: 100%; text-align: center;}.newsletter{padding: 15px 30px;}
 .confirm-title{text-align: center; border-bottom: 1px dotted;}.btn-find{margin-top:0;}
 .blog-content{padding-bottom: 30px;}.autoheight{height: auto !important;}.btm-menu{min-height: 25%; margin-left: 0px}
-.total{margin-top: 15px; color: #666;}.icontop{margin-top: -10px;}.mobilesearch{border-left: none;}
-.search-query{width: 80%; height: 30px; border-radius: 25px;}.flex-viewport {width:100%;float:none;}
+.total{margin-top: 15px; color: #666;}.icontop{margin-top: -10px;}.mobilesearch{border-left: none !important;}
+.search-query{width: 85%; height: 30px; border-radius: 25px;}.flex-viewport {width:100%;float:none;}
 .subscribe_block{border: 1px dashed #fff; background-color: #ddd; color: #444;}.letternews{border-right: 1px solid #ccc;}
 .title-news{font-size: 12px;}#newsletter{display: inline-block; padding-top: 30px}.input-text{height: 40px}
 .forget{padding: 0 20px;}#reg{font-size: 35px; color: #444;}.discount{color: #A29B95; text-decoration: line-through}
@@ -298,6 +298,7 @@ header > .data-content{padding: 0;}header > .data-content > .row{padding: 0 15px
 }
 @media screen and (max-width: 979px){
 	.navbar .nav > li > a:hover{color: #f6626e}
+	.search-query{height: 30px !important}
 }
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) {
