@@ -4,7 +4,7 @@
             {{pluginSidePowerup()}}
             <section>
                 @foreach(vertical_banner() as $item)
-                <div>
+                <div class="banner">
                     <a href="{{url($item->url)}}">
                         <img src="{{ url(banner_image_url($item->gambar)) }}" alt="Info Promo" />
                     </a>
@@ -58,7 +58,7 @@
                         </li>
                         @endforeach
                     </ul>
-                    <strong class="pull-right"><a href="{{url('testimoni')}}">More..</a></strong>
+                    <strong class="pull-right"><a href="{{url('testimoni')}}">Selengkapnya...</a></strong>
                 </span>
             </section>
         </div>

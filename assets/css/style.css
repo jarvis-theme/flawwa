@@ -344,10 +344,9 @@ header > .data-content{padding: 0;}header > .data-content > .row{padding: 0 15px
 	.navbar .nav > li > a { text-shadow: none; color: #fff; padding: 19px 15px; }
 	.nav-collapse .nav > li > a:hover, .nav-collapse .dropdown-menu a:hover { background-color: transparent; }
 	.nav-collapse, .nav-collapse.collapse { background-color: #222; }
-	.tab-content.sideline article { width: 100% !important; }
-	.tab-content.sideline { border: medium none !important; border-left: none; }
-	section.content .tab-content article { margin: 0px 0px 10px !important; }
-	section.content .tab-content .view { margin: 35px 20px 5px; }
+	section .tab-content.sideline article { width: 100%; margin: 0px 0px 10px }
+	section.content .view { margin: 35px 20px 5px; }
+	section .tab-content.sideline { border: medium none; border-left: none; }
 	#desc { margin-bottom: 8%; }
 	.flexslider-produk ol.flex-control-nav { display: none !important; }
 }
@@ -363,6 +362,9 @@ header > .data-content{padding: 0;}header > .data-content > .row{padding: 0 15px
 	.blog-result { margin: 5%; }.page_sidebar{margin: 0 10px}
 	.content{ padding: 0 10px }
 	#reg, .login h3, .prime h3, .well h3{font-size: 20px}.form-horizontal .controls,.table td{font-size: 12px}
+}
+@media screen and (min-width: 481px) and (max-width: 767px){
+	section .tab-content.sideline article{width: 48%; margin: 0 4px 10px}
 }
 @media screen and (min-width: 481px) and (max-width: 600px){
 	.short-code-column{margin-bottom: 0}
