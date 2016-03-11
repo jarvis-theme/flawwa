@@ -4,7 +4,7 @@
     </div>
 </div>
 
-<div class="row-fluid cart">
+<div class="row-fluid">
     <div class="span12">
         {{Form::open(array('url'=>'member','method'=>'post','class'=>'form-horizontal'))}}
             <div class="control-group">
@@ -78,7 +78,7 @@
             </div>
 
             <div class="control-group">
-                <label class="control-label" for="inputEmail"> Kode Captcha*</label>
+                <label class="control-label" for="inputEmail"> Kode Keamanan*</label>
                 <div class="controls">
                     {{ HTML::image(Captcha::img(), 'Captcha image') }}<br><br>
                     {{Form::text('captcha', '', array('class'=>'inputbox','placeholder'=>'Masukkan kode diatas'))}}

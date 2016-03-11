@@ -2,7 +2,7 @@
 {{ generate_theme_css('flawwa/assets/css/bootstrap-responsive.css') }} 
 
 @if($tema->isiCss=='')
-{{ generate_theme_css('flawwa/assets/css/style.css?v=001') }} 
+{{ generate_theme_css('flawwa/assets/css/style.css') }} 
 @else
 {{ generate_theme_css('flawwa/assets/css/editstyle.css') }} 
 @endif

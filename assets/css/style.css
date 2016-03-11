@@ -120,7 +120,7 @@ nav a:hover { text-decoration: none; color: #555; }
 .btn-cart, .btn-search { display: none; }
 .result-label { margin: 40px 0; font-style: italic; font-size: 14px; }
 .title-result { font-size: 16px; }
-#search-pos { position: absolute; top: 7px; right: 5px; color: #ddd; }
+#search-pos { position: absolute; top: 7px; right: 15px; color: #ddd; }
 .search-column { visibility: hidden; min-width: 180px; width: 23%; margin-top: 80px; position: absolute; z-index: 5000; right: 0; }
 .nav { padding-bottom: 15px; padding-top: 13px; }
 .navbar .nav > li:first-child { border-left: none; }
@@ -270,156 +270,13 @@ header > .data-content{padding: 0;}header > .data-content > .row{padding: 0 15px
 .detailpro .sosmed, .option-mobile .sosmed{padding-bottom: 20px; width: 100%}.review{border-top: 1px solid #DDD; margin-top: 20px;}
 .relate{height: 277px; position: relative;}.notfound{font-style:italic; text-align:center;}.justify{text-align: justify}
 .search-result{text-align: center; border: 0;}.highlight_text{font-weight: bold}.inputname{height: 30px !important; width: 100%;}
-.short-code-column{margin-top: 10px; margin-bottom: 25px;}.testi{padding-top: 10px;}.textarea{width: 100%;}
+.short-code-column{margin-top: 10px;}.testi{padding-top: 10px;}.textarea{width: 100%;}
 .title-testi{font-size: 16px; margin-bottom: 20px;}.totalprice{margin-top: 15px; color: #666;}
 .fb-share-button{top: 0 !important}#addorder, .description, .review, .otherpro{padding: 0 10px}
 .banner:first-child{margin-top: 0}.banner{margin-top: 5px}.tab-content{overflow: inherit;}.table-responsive{overflow: auto;}
 .confirm-order form, .confirm-order .confirm-title{margin: 0}
-
-/* Large desktop */
-@media (min-width: 1200px) {
-	.wrap-content { padding-bottom: 50px; }
-	.contact { padding: 25px 0px 50px; }
-	.social { padding: 25px 0px 45px; }
-	.navbar-inner .container > ul { display: none; }
-}
-@media screen and (min-width: 980px) and (max-width: 1171px){
-	.feat .row-fluid .span4{margin-left: 0; width: 31.9149%; height: 330px}
-	.prohome .span12 .span12{margin-left: 1%}
-}
-@media (min-width: 980px) and (max-width: 1199px) {
-	.wrap-content { padding-bottom: 50px; }
-	.contact { padding: 25px 0px 50px; }
-	.social { padding: 25px 0px 45px; }
-	.copyright { padding: 25px 0px 0px 0px; }
-	.navbar-inner .container > ul { display: none; }
-	.tab-content.sideline article { width: 30% !important; }
-	.flexslider-produk ol.flex-control-nav { display: none !important; }
-}
-@media screen and (max-width: 979px){
-	.navbar .nav > li > a:hover{color: #f6626e}
-	.search-query{height: 30px !important}
-}
-/* Portrait tablet to landscape and desktop */
-@media (min-width: 768px) and (max-width: 979px) {
-	.wrap-content { padding-bottom: 50px; }
-	.tools { display: none; }
-	.contact { padding: 25px 0px 55px; }
-	.social { padding: 25px 0px 50px; margin-left: 0px; }
-	.copyright { padding: 25px 30px 0px 0px; }
-	.bank { padding: 25px 0px; text-align: right; }
-	.btn-cart, .btn-search { display: inline-block; }
-	.navbar-inner > .container a { margin-left: 70px; margin-right: 70px; }
-	.nav-collapse .nav { margin-left: -65px; margin-right: -70px; margin-bottom: 0px; padding-bottom: 0px; }
-	.desc-title { font-size: 18px; }
-	.navbar .nav > li { padding-left: 0px; padding-right: 0px; border-left: none; border-bottom: 1px solid rgba(255, 255, 255, 0.05); }
-	.navbar .nav > li > a { text-shadow: none; color: #ddd; padding: 19px 15px; width: 74%; display: block; margin: 0 auto; }
-	.nav-collapse .nav > li > a:hover, .nav-collapse .dropdown-menu a:hover { background-color: transparent; }
-	.nav-collapse, .nav-collapse.collapse { background-color: #222; margin-left: -70px; margin-right: -70px; }
-	.info { margin-top: 70px; }
-	.tab-content.sideline article { width: 46% !important; }
-	section .tab-content article { margin: 0px 0px 10px; }
-	section.tab-content .view { margin: 10px auto; }
-	.flexslider-produk ol.flex-control-nav { display: none !important; }
-	.form-horizontal .control-label { width: 25%; }
-	.form-horizontal .controls { margin-left: 30%; }
-}
-
-/* Landscape phone to portrait tablet */
-@media (max-width: 767px) {
-	.wrap-content { padding-bottom: 50px; }
-	.tools { display: none; }
-	.contact { padding: 30px 0 40px; border-bottom: 1px solid #ddd; }
-	.grs-right { border-right: none; }
-	.social { padding: 30px 0 40px; }
-	.footer-menu { border-bottom: 1px solid #fff; text-align: center; }
-	.btn-cart, .btn-search { display: inline-block; }
-	.navbar-inner > .container a { margin-left: 70px; margin-right: 70px; }
-	.copyright { text-align: center; }
-	.bank { float: none; text-align: center; }
-	.title { margin-right: 0px; }
-	.contact > p { margin: 0px 35px 10px; }
-	.nav-collapse .nav { padding-bottom: 0px; }
-	.navbar .nav > li { padding-left: 0px; border-left: none; border-bottom: 1px solid rgba(255, 255, 255, 0.05); }
-	.navbar .nav > li > a { text-shadow: none; color: #fff; padding: 19px 15px; }
-	.nav-collapse .nav > li > a:hover, .nav-collapse .dropdown-menu a:hover { background-color: transparent; }
-	.nav-collapse, .nav-collapse.collapse { background-color: #222; }
-	section .tab-content.sideline article { width: 100%; margin: 0px 0px 10px }
-	section.content .view { margin: 35px 20px 5px; }
-	section .tab-content.sideline { border: medium none; border-left: none; }
-	#desc { margin-bottom: 8%; }
-	.flexslider-produk ol.flex-control-nav { display: none !important; }
-}
-@media screen and (min-width: 601px) and (max-width: 767px){
-	#feat{width: 50%; float: left;}
-}
-@media (max-width: 600px){
-	.data-content { min-width: 100%; padding: 0; }
-	.brand-title { max-width: 45%; }
-	.info { margin-top: 80px; font-size: 13px; }
-	#feat { margin-left: auto; margin-right: auto; width: 60%; }
-	#gambar { width: 80%; }
-	.blog-result { margin: 5%; }.page_sidebar{margin: 0 10px}
-	.content{ padding: 0 10px }
-	#reg, .login h3, .prime h3, .well h3{font-size: 20px}.form-horizontal .controls,.table td{font-size: 12px}
-}
-@media screen and (min-width: 481px) and (max-width: 767px){
-	section .tab-content.sideline article{width: 48%; margin: 0 4px 10px}
-}
-@media screen and (min-width: 481px) and (max-width: 600px){
-	.short-code-column{margin-bottom: 0}
-}
-/* Landscape phones and down */
-@media (max-width: 480px) {
-	.wrapper { padding-bottom: 0px; }
-	.data-content { min-width: 100%; }
-	.copyright { padding: 0px 15px 0px; }
-	.wrap-content { min-width: 100%; padding-bottom: 0px; padding-left: 15px; padding-right: 15px; }
-	.brand-title { padding: 0px 0px 20px; margin-top: 5px; display: block; margin-left: auto; margin-right: auto; text-align: center; max-width: 60%; }
-	.tools { display: none; }
-	.breadcrumb { display: none; }
-	.page-title { border-bottom: none; text-align: center; padding: 50px 0px; }
-	.article { padding-top: 0px; }
-	.logo { padding: 40px 0px 20px; }
-	.content { padding-bottom: 50px; }
-	.main-footer { margin-bottom: 30px; }
-	.contact { padding: 25px 0px 40px; border-bottom: 1px solid #fff; }
-	.grs-right { border-right: none; }
-	.social { padding: 25px 0px 45px; }
-	.main-footer > li { width: 100%; height: auto; border-left: medium none; padding: 0px 0px 45px; }
-	.bank { padding: 10px 0 0; border-top: 1px #fff solid; }
-	.navbar-inner > .container a { margin-left: 20px; margin-right: 20px; }
-	.btn-cart, .btn-search { display: inline-block; }
-	.nav-collapse .nav { margin-left: -15px; margin-right: -15px; }
-	.option-mobile { display: block; }
-	.option-title, .share-plugin { display: none; }
-	.option-cart { padding-bottom: 42px; }
-	.opsi { display: block; }
-	.qty { margin-left: 0px; }.navi-blog h4{font-size: 16px}
-	.desc-title { font-size: 18px; margin-top: 15px; }
-	#qty-label { display: block; }.sidebar aside small{font-size: 11px}
-	.navbar .nav > li > a { text-shadow: none; color: #fff; padding-left: 50px; }
-	.nav-collapse, .nav-collapse.collapse { background-color: #222; }
-	.info { float: none; text-align: center; margin-top: 10px; }
-	.title { margin-right: 20px; }.pages p, .post article, .post a{ font-size: 12px }
-	ul { margin: 0px 20px 0px 0px; }.option-mobile .price big{font-size: 15px}
-	.flexslider-produk ol.flex-control-nav { display: none !important; }
-	section.content .tab-content .view { margin: 30px 20px 10px; }
-	#feat { margin-left: auto; margin-right: auto; width: 70%; }
-	.article-img { width: 100% !important; }.img-home{height: 100% !important}
-	.product-title { line-height: 35px; font-size: 22px; margin-bottom: 10px }
-	.prohome h3, .pages h3{font-size: 18px}.feat .row-fluid .span4{margin: 10px 0; height: 100%}
-}
-@media screen and (max-width: 360px){
-	.cross-product .span3{width: 50%; float: left;}
-}
-@media (max-width: 320px) {
-	.navbar-inner > .container a { margin-left: 18px; margin-right: 20px; }
-	.navi-item { width: 32%; }
-	.flexslider-produk ol.flex-control-nav { display: none !important; }
-	section.content .tab-content .view { margin: 30px 20px 10px; }
-	#feat { margin-left: auto; margin-right: auto; width: 100%; }
-}
+.main-page { padding: 10px }
+.expired { text-align: center; color: red }
 
 @media (max-width: 240px) {
 	.navbar-inner > .container a { margin-left: 5px; margin-right: 7px; }
@@ -432,4 +289,161 @@ header > .data-content{padding: 0;}header > .data-content > .row{padding: 0 15px
 	.flexslider { display: none; }
 	.view-thumb p { margin-top: 30px; }
 	.best-badge, .new-badge { width: 70px !important; height: 70px!important; }
+}
+@media (max-width: 320px) {
+	.navi-item { width: 32%; }
+	.flexslider-produk ol.flex-control-nav { display: none !important; }
+	section.content .tab-content .view { margin: 30px 20px 10px; }
+	#feat { margin-left: auto; margin-right: auto; width: 100%; }
+}
+@media screen and (max-width: 360px){
+	.cross-product .span3 { width: 50%; float: left; }
+	.nav-collapse .nav { margin-left: 0; margin-right: 0 }
+	.navbar .nav > li { padding-left: 0; padding-right: 0 }
+	.navbar .nav > li > a { padding-left: 15px; font-size: 12px; }
+}
+@media screen and (min-width: 361px) and (max-width: 640px){
+	.relate{width: 50% !important; display: inline-block !important; float: left !important;}
+}
+/* Landscape phones and down */
+@media (max-width: 480px) {
+	.wrapper { padding-bottom: 0px; }
+	.data-content { min-width: 100%; }
+	.copyright { padding: 0px 15px 0px; }
+	.wrap-content { min-width: 100%; padding-bottom: 0px; padding-left: 15px; padding-right: 15px; }
+	.brand-title {
+		padding: 0px 0px 20px; margin-top: 5px; display: block;
+		margin-left: auto; margin-right: auto; text-align: center; max-width: 60%;
+	}
+	.tools { display: none; }
+	.breadcrumb { display: none; }
+	.page-title { border-bottom: none; text-align: center; padding: 50px 0px; }
+	.article { padding-top: 0px; }
+	.logo { padding: 40px 0px 20px; }
+	.content { padding-bottom: 50px; }
+	.main-footer { margin-bottom: 30px; }
+	.contact { padding: 25px 0px 40px; border-bottom: 1px solid #fff; }
+	.grs-right { border-right: none; }
+	.social { padding: 25px 0px 45px; }
+	.main-footer > li { width: 100%; height: auto; border-left: medium none; padding: 0px 0px 45px; }
+	.bank { padding: 10px 0 0; border-top: 1px #fff solid; }
+	.navbar-inner > .container a { margin-left: 20px; }
+	.btn-cart, .btn-search { display: inline-block; }
+	.option-mobile { display: block; }
+	.option-title, .share-plugin { display: none; }
+	.option-cart { padding-bottom: 42px; }
+	.opsi { display: block; }
+	.qty { margin-left: 0px; }.navi-blog h4 { font-size: 16px }
+	.desc-title { font-size: 18px; margin-top: 15px; }
+	#qty-label { display: block; }.sidebar aside small { font-size: 11px }
+	.navbar .nav > li > a { text-shadow: none; color: #fff; margin-left: 20px; }
+	.nav-collapse, .nav-collapse.collapse { background-color: transparent; }
+	.info { float: none; text-align: center; margin-top: 10px; }
+	.title { margin-right: 20px; }.pages p, .post article, .post a { font-size: 12px }
+	ul { margin: 0px 20px 0px 0px; }.option-mobile .price big { font-size: 15px }
+	.flexslider-produk ol.flex-control-nav { display: none !important; }
+	section.content .tab-content .view { margin: 30px 20px 10px; }
+	#feat { margin-left: auto; margin-right: auto; width: 90% !important; }
+	.article-img { width: 100% !important; }.img-home { height: 100% !important }
+	.product-title { line-height: 35px; font-size: 22px; margin-bottom: 10px }
+	.prohome h3, .pages h3 { font-size: 18px }.feat .row-fluid .span4 { margin: 10px 0; height: 100% }
+}
+@media screen and (min-width: 481px) and (max-width: 600px){
+	.short-code-column { margin-bottom: 0 }
+}
+@media screen and (min-width: 481px) and (max-width: 767px){
+	section .tab-content.sideline article { width: 48%; margin: 0 4px 10px }
+}
+@media (max-width: 600px){
+	.data-content { min-width: 100%; padding: 0; }
+	.brand-title { max-width: 45%; }
+	.info { margin-top: 80px; font-size: 13px; }
+	#feat { margin-left: auto; margin-right: auto; width: 60%; }
+	#gambar { width: 80%; }
+	.blog-result { margin: 5%; }.page_sidebar { padding: 10px }
+	.content { padding: 0 10px }
+	#reg, .login h3, .prime h3, .well h3 { font-size: 20px }.form-horizontal .controls,.table td { font-size: 12px }
+}
+@media screen and (min-width: 601px) and (max-width: 767px){
+	#feat { width: 50%; float: left; }
+}
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+	.wrap-content { padding-bottom: 50px; }
+	.tools { display: none; }
+	.contact { padding: 30px 0 40px; border-bottom: 1px solid #ddd; }
+	.grs-right { border-right: none; }
+	.social { padding: 30px 0 40px; }
+	.footer-menu { border-bottom: 1px solid #fff; text-align: center; }
+	.btn-cart, .btn-search { display: inline-block; }
+	.navbar-inner > .container a { margin-left: 70px; }
+	.copyright { text-align: center; }
+	.bank { float: none; text-align: center; }
+	.title { margin-right: 0px; }
+	.contact > p { margin: 0px 35px 10px; }
+	.nav-collapse .nav { padding-bottom: 0px; }
+	.navbar .nav > li {
+		padding-left: 0px; padding-right: 0; border-left: none;
+		border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+	}
+	.navbar .nav > li > a { text-shadow: none; color: #fff; padding: 19px 15px; }
+	.nav-collapse .nav > li > a:hover, .nav-collapse .dropdown-menu a:hover { background-color: transparent; }
+	.nav-collapse, .nav-collapse.collapse { background-color: transparent; }
+	section .tab-content.sideline article { width: 100%; margin: 0px 0px 10px }
+	section.content .view { margin: 35px 20px 5px; }
+	section .tab-content.sideline { border: medium none; border-left: none; }
+	#desc { margin-bottom: 8%; }
+	.flexslider-produk ol.flex-control-nav { display: none !important; }
+}
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+	.wrap-content { padding-bottom: 50px; }
+	.tools { display: none; }
+	.contact { padding: 25px 0px 55px; }
+	.social { padding: 25px 0px 50px; margin-left: 0px; }
+	.copyright { padding: 25px 30px 0px 0px; }
+	.bank { padding: 25px 0px; text-align: right; }
+	.btn-cart, .btn-search { display: inline-block; }
+	.navbar-inner > .container a { margin-left: 70px; margin-right: 70px; }
+	.nav-collapse .nav { margin-bottom: 0px; padding-bottom: 0px; }
+	.desc-title { font-size: 18px; }
+	.navbar .nav > li {
+		padding-left: 50px; padding-right: 0px; border-left: none;
+		border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+	}
+	.navbar .nav > li > a { text-shadow: none; color: #fff; padding: 19px 15px; display: block; margin: 0 auto; }
+	.nav-collapse .nav > li > a:hover, .nav-collapse .dropdown-menu a:hover { background-color: transparent; }
+	.info { margin-top: 70px; }
+	.tab-content.sideline article { width: 46% !important; }
+	section .tab-content article { margin: 0px 0px 10px; }
+	section.tab-content .view { margin: 10px auto; }
+	.flexslider-produk ol.flex-control-nav { display: none !important; }
+	.form-horizontal .control-label { width: 25%; }
+	.form-horizontal .controls { margin-left: 30%; }
+}
+@media screen and (max-width: 979px){
+	.nav-collapse .nav{padding-top: 0}
+	.navbar .nav > li { border-top: 1px #d3545f dashed; }
+	.navbar .nav > li > a:hover { color: #333 }
+	.search-query { height: 30px !important }
+}
+@media (min-width: 980px) and (max-width: 1199px) {
+	.wrap-content { padding-bottom: 50px; }
+	.contact { padding: 25px 0px 50px; }
+	.social { padding: 25px 0px 45px; }
+	.copyright { padding: 25px 0px 0px 0px; }
+	.navbar-inner .container > ul { display: none; }
+	.tab-content.sideline article { width: 30% !important; }
+	.flexslider-produk ol.flex-control-nav { display: none !important; }
+}
+@media screen and (min-width: 980px) and (max-width: 1171px){
+	.feat .row-fluid .span4 { margin-left: 0; width: 31.9149%; height: 330px }
+	.prohome .span12 .span12 { margin-left: 1% }
+}
+/* Large desktop */
+@media (min-width: 1200px) {
+	.wrap-content { padding-bottom: 50px; }
+	.contact { padding: 25px 0px 50px; }
+	.social { padding: 25px 0px 45px; }
+	.navbar-inner .container > ul { display: none; }
 }

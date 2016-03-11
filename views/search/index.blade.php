@@ -5,7 +5,7 @@
     @if($jumlahCari!=0)
         @foreach($hasilpro as $myproduk)
         <article class="justify">
-            <div class="span1">
+            <div class="span1 center">
                 <a href="{{product_url($myproduk)}}">
                     <img src="{{url(product_image_url($myproduk->gambar1,'medium'))}}" alt="{{short_description($myproduk->nama,15)}}" id="{{$myproduk->nama}}" />
                 </a>

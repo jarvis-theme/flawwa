@@ -1,4 +1,4 @@
-define(['jquery','noty'], function($)
+define(['jquery'], function($)
 {
 	return new function(){
 		var self = this;

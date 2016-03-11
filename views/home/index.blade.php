@@ -17,7 +17,7 @@
                         @endif
 
                         <div class="view view-thumb">
-                            <img class="img-home" src="{{ url(product_image_url($myproduk->gambar1,'medium')) }}" alt="{{shortName($myproduk->nama,25)}}" />
+                            <img src="{{ url(product_image_url($myproduk->gambar1,'medium')) }}" alt="{{shortName($myproduk->nama,25)}}" />
                             <div class="mask">
                                 <p>{{short_description($myproduk->deskripsi,100)}}</p>
                                 <a href="{{product_url($myproduk)}}" class="buy">Beli</a>
