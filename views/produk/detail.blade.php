@@ -96,7 +96,7 @@
 </div>
 <div class="row-fluid">
     <div class="span12 review">
-        {{pluginTrustklik()}}
+        {{ pluginComment(product_url($produk), @$produk) }}
     </div>
 </div>
 @if(count(other_product($produk))>0)

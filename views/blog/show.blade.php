@@ -31,8 +31,8 @@
         </div>
         <hr>
         <div>
-            {{$fbscript}}
-            {{fbcommentbox(url(blog_url($detailblog)), '100%', '5', 'light')}}
+            {{ $fbscript }}
+            {{ fbcommentbox(url(blog_url($detailblog)), '100%', '5', 'light') }}
         </div>
     </div>
     <div class="span4 sidebar">
