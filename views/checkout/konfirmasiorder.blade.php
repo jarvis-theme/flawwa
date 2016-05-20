@@ -96,7 +96,7 @@
                         <div class="controls">
                             <select name="bank">
                                 <option value="">-- Pilih Bank Tujuan --</option>
-                                @foreach (list_banks() as $bank)
+                                @foreach ($banktrans as $bank)
                                     <option value="{{$bank->id}}">{{$bank->bankdefault->nama}} - {{$bank->noRekening}} - A/n {{$bank->atasNama}}</option>
                                 @endforeach
                             </select>

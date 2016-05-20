@@ -66,7 +66,9 @@
             <div class="span6">
                 <p class="bank">
                 @foreach(list_banks() as $value)  
+                    @if($value->status == 1)
                     <img src="{{bank_logo($value)}}" alt="{{$value->bankdefault->nama}}" title="{{$value->bankdefault->nama}}" />
+                    @endif
                 @endforeach  
                 @foreach(list_payments() as $pay)
                     @if($pay->nama == 'paypal' && $pay->aktif == 1)
@@ -89,4 +91,4 @@
             </div>
         </div>
     </footer>
-    {{ pluginPowerup() }}
+    {{ pluginPowerup() }} 
