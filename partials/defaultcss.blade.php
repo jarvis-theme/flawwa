@@ -2,9 +2,9 @@
 {{ generate_theme_css('flawwa/assets/css/bootstrap-responsive.css') }} 
 
 @if($tema->isiCss=='')
-{{ generate_theme_css('flawwa/assets/css/style.css') }} 
+{{ generate_theme_css('flawwa/assets/css/style.css?v=001') }} 
 @else
-{{ generate_theme_css('flawwa/assets/css/editstyle.css') }} 
+{{ generate_theme_css('flawwa/assets/css/editstyle.css?v=001') }} 
 @endif
 {{ generate_theme_css('flawwa/assets/css/flexslider.css') }} 
 

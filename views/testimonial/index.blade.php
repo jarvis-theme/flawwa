@@ -5,8 +5,7 @@
     <div class="span8 list">
         @foreach(list_testimonial() as $key=>$value)
         <article class="testimonial">
-            <a href="#" class="navi-blog"><h4>{{$value->nama}}</h4></a>
-            <p><small class="date"><i class="fa fa-calendar"></i> {{waktuTgl($value->created_at)}}</small></p>
+            <h5>{{$value->nama}}</h5>
             <p>{{substr($value->isi,0,250)}}</p>
         </article>
         @endforeach

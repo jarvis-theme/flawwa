@@ -101,8 +101,8 @@ nav a:hover { text-decoration: none; color: #555; }
 #qty-label { display: inline; }
 .qty { height: 30px !important; width: 43px; margin-left: 15px; display: inline; }
 .opsi > input[type="text"] { border-color: #f6626e; }
-.cart-button { display: inline-block; padding: 6px 12px; text-align: center; -moz-user-select: none; border: 1px solid transparent; border-radius: 4px; background-color: transparent; border-color: #f6626e; color: #f6626e; margin-top: 12px; }
-.cart-button:hover { background-color: #f6626e; color: #fff; border-color: #f6626e; }
+.cart-button, .main-button { display: inline-block; padding: 6px 12px; text-align: center; -moz-user-select: none; border: 1px solid transparent; border-radius: 4px; background-color: transparent; border-color: #f6626e; color: #f6626e; margin-top: 12px; }
+.cart-button:hover, .main-button:hover { background-color: #f6626e; color: #fff; border-color: #f6626e; }
 .option-cart input[type="text"]:focus{
 	border-color: #f6626e;
 	outline: 0;
@@ -254,7 +254,7 @@ div.sideline > article { height: 277px; position:relative; }
 footer{background-color: #f6626e !important; color: #fff}.footer-menu ul li a{color: #fff}
 .footer-menu ul li a:hover{opacity: 0.7}.bank img{border-radius: 5px; margin-bottom: 5px}
 header > .data-content{padding: 0;}header > .data-content > .row{padding: 0 15px}
-.ul{list-style: disc; margin: 0px 0px 10px 25px;}.title-register{padding-top: 25px;}
+.ul{list-style: disc; margin: 0px 0px 10px 25px;}.title-register{padding-top: 25px;font-weight: bold;}
 .prohome{margin-top: 20px;}.prohome1{height:250px;width:auto;}.hp{padding-right: 12px;}.tlp{padding-right: 15px;}
 .sep-home1 img{width: 20px;}.imgbbm{padding-right: 5px;}.emailhome{padding-right: 10px;}
 .confirm-order{width: 100%; text-align: center;}.newsletter{padding: 15px 30px;}
@@ -295,6 +295,20 @@ form[name="order"] > input[name="SAVE"]:hover {
 }
 .btn-veritrans { background: #00aee7; border: none; padding: 10px; border-radius: 5px; color: #fff }
 .btn-veritrans:hover { cursor: pointer; opacity: 0.7 }
+.p0 { padding: 0; }
+.picmix { width: 30px; margin-top: -5px; }
+.theme { color: #f6626e; }
+.midtrans { padding: 8px; background: #f7f7f7; }
+.confirm button { margin-top: 0; }
+.flex-control-nav.flex-control-thumbs { margin-top: 10px; position: initial; }
+.flex-control-thumbs img { max-width: 100px; }
+.option-cart label { display: inline; }
+#opsi { margin-right: 32px; }
+input[name="qty"] { margin-right: 20px; margin-top: 16px; }
+.opsi button { margin-top: 5px; }
+.outstok-badge, .best-badge, .new-badge { width: 75px; height: auto; }
+.pagination { clear: both; padding: 0 20px; }
+
 
 @media (max-width: 240px) {
 	.navbar-inner > .container a { margin-left: 5px; margin-right: 7px; }
@@ -351,9 +365,9 @@ form[name="order"] > input[name="SAVE"]:hover {
 	.option-title, .share-plugin { display: none; }
 	.option-cart { padding-bottom: 42px; }
 	.opsi { display: block; }
-	.qty { margin-left: 0px; }.navi-blog h4 { font-size: 16px }
+	.navi-blog h4 { font-size: 16px }
 	.desc-title { font-size: 18px; margin-top: 15px; }
-	#qty-label { display: block; }.sidebar aside small { font-size: 11px }
+	.sidebar aside small { font-size: 11px }
 	.navbar .nav > li > a { text-shadow: none; color: #fff; margin-left: 20px; }
 	.nav-collapse, .nav-collapse.collapse { background-color: transparent; }
 	.info { float: none; text-align: center; margin-top: 10px; }
@@ -392,7 +406,8 @@ form[name="order"] > input[name="SAVE"]:hover {
 	.contact { padding: 30px 0 40px; border-bottom: 1px solid #ddd; }
 	.grs-right { border-right: none; }
 	.social { padding: 30px 0 40px; }
-	.footer-menu { border-bottom: 1px solid #fff; text-align: center; }
+	.footer-menu { border-bottom: 1px solid #fff; text-align: center; padding: 25px; }
+	.footer-menu ul { margin: 0; }
 	.btn-cart, .btn-search { display: inline-block; }
 	.navbar-inner > .container a { margin-left: 70px; }
 	.copyright { text-align: center; }
@@ -412,6 +427,8 @@ form[name="order"] > input[name="SAVE"]:hover {
 	section .tab-content.sideline { border: medium none; border-left: none; }
 	#desc { margin-bottom: 8%; }
 	.flexslider-produk ol.flex-control-nav { display: none !important; }
+	.confirm button { margin-top: 10px; }
+	.pagination { padding: 0; }
 }
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 979px) {

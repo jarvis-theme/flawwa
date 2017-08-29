@@ -62,11 +62,11 @@
                     <article class="relate">
                         <span class="badge badge-inverse">{{price($myproduk->hargaJual)}}</span>
                         @if(is_outstok($myproduk))
-                        {{is_outstok($myproduk)}}
+                            <img src="//d3kamn3rg2loz7.cloudfront.net/assets/flawwa/assets/img/stok-badge.png" class="outstok-badge">
                         @elseif(is_produkbaru($myproduk))
-                        {{is_produkbaru($myproduk)}}
+                            <img src="//d3kamn3rg2loz7.cloudfront.net/assets/flawwa/assets/img/terlaris-badge.png" class="best-badge">
                         @elseif(is_terlaris($myproduk))
-                        {{is_terlaris($myproduk)}}
+                            <img src="//d3kamn3rg2loz7.cloudfront.net/assets/flawwa/assets/img/new-badge.png" class="new-badge">
                         @endif
 
                         <div class="view thumb-prod">

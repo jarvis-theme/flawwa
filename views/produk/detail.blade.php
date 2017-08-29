@@ -69,7 +69,7 @@
             <form action="#" id="addorder">
                 <div class="option-cart">
                     @if($opsiproduk->count() > 0)
-                    <label>Opsi :</label>
+                    <label id="opsi">Opsi :</label>
                     <select>
                         <option value=""> Pilih Opsi </option>
                         @foreach ($opsiproduk as $key => $opsi)
@@ -80,10 +80,10 @@
                     </select>
                     @endif
                     <div class="opsi">
-                        <label id="qty-label">Jumlah</label>
-                        <input type="text" value="1" name="qty" class="qty">
+                        <label id="qty-label">Jumlah :</label>
+                        <input type="number" value="1" name="qty" class="qty" pattern="[0-9]">
+                        <button type="submit" class="cart-button">Beli</button>
                     </div>
-                    <button type="submit" class="cart-button">Beli</button>
                 </div>
             </form>
         
